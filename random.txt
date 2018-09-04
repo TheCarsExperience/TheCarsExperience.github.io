@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+<button type="button"
+onclick="document.getElementById('myVersion').innerHTML = 'HELLO WORLD'">
+hello</button>
+
+<p id="myVersion">hello world</p>
+
+</body>
+</html>
+
+Escape character: \
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change the style of an HTML element. It can also change multiple elements at once</p>
+
+<button type="button" onclick="document.getElementById('demo').style.color='red'; document.getElementById('demo').style.fontFamily='ComicSansMS'; document.getElementById('demo').style.fontSize='50px';">Click Me!</button>
+
+
+</body>
+</html>
